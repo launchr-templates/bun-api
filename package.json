@@ -1,11 +1,11 @@
 {
   "name": "bun-api",
-  "module": "index.ts",
-  "type": "module",
   "private": true,
+  "type": "module",
+  "module": "index.ts",
   "scripts": {
-    "start": "bun run index.ts",
-    "dev": "bun --watch index.ts"
+    "dev": "bun --watch index.ts",
+    "start": "bun run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
