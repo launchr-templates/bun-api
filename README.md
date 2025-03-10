@@ -1,15 +1,37 @@
 # bun-api
 
+A lightweight Bun API server.
+
+## Features
+
+- TypeScript support
+- Clean, minimalist API design
+- Automatic port discovery
+
+## Installation
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+## Usage
+
+To run in development mode with hot reloading:
+
+```bash
+bun dev
+```
+
+To run in production mode:
+
+```bash
+bun start
+```
+
+Or run directly:
 
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
